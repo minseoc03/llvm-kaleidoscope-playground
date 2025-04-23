@@ -9,7 +9,7 @@ It aims to explore the fundamentals of compiler frontends using LLVM in C++.
 
 ## 📚 Progress Overview
 
-| Chapter | Topic | Note | Code |
+| Chapter | Topic | Note (KOR) | Code |
 |--------|-------|--------|--------|
 | Chapter 1 | Implementing a Lexer (tokenization) | [Note](notes/chapter1.md) | [Code](src/no_llvm.cpp)
 | Chapter 2 | Building AST + Recursive Parser | [Note](notes/chapter2.md) | [Code](src/no_llvm.cpp)
@@ -28,7 +28,7 @@ It aims to explore the fundamentals of compiler frontends using LLVM in C++.
 kaleidoscope_tutorial/
 ├── src/                    # Source files (main.cpp, ast.cpp, parser.cpp, etc.)
 ├── build/                  # Build directory (CMake outputs)
-├── notes/                  # Markdown notes per chapter
+├── notes/                  # Markdown notes per chapter (written in Korean)
 ├── CMakeLists.txt          # CMake configuration
 ├── LICENSE                 # MIT License
 └── README.md               # Project overview
@@ -65,4 +65,3 @@ make
 ## 📄 References
 
 - [LLVM Kaleidoscope Official Tutorial](https://llvm.org/docs/tutorial/)
-- Markdown notes for each chapter are located in the `notes/` folder.
