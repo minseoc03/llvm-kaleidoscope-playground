@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/Users/minseo_c03/Desktop/kaleidoscope_tutorial/build",
+  "command": "/usr/bin/clang++ -I/opt/homebrew/opt/llvm/include -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64   -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/kaleidoscope.dir/src/llvm_codegen.cpp.o -c /Users/minseo_c03/Desktop/kaleidoscope_tutorial/src/llvm_codegen.cpp",
+  "file": "/Users/minseo_c03/Desktop/kaleidoscope_tutorial/src/llvm_codegen.cpp",
+  "output": "CMakeFiles/kaleidoscope.dir/src/llvm_codegen.cpp.o"
+},
+{
+  "directory": "/Users/minseo_c03/Desktop/kaleidoscope_tutorial/build",
+  "command": "/usr/bin/clang++ -I/opt/homebrew/opt/llvm/include -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64   -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/kaleidoscope.dir/src/no_llvm.cpp.o -c /Users/minseo_c03/Desktop/kaleidoscope_tutorial/src/no_llvm.cpp",
+  "file": "/Users/minseo_c03/Desktop/kaleidoscope_tutorial/src/no_llvm.cpp",
+  "output": "CMakeFiles/kaleidoscope.dir/src/no_llvm.cpp.o"
+}
+]
