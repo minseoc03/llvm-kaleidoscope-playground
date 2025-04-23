@@ -1,0 +1,68 @@
+
+# 🔧 Kaleidoscope Tutorial (LLVM-Based Language Implementation Practice)
+
+This project follows the official [LLVM Kaleidoscope Tutorial](https://llvm.org/docs/tutorial/),  
+a step-by-step guide to implementing a simple functional programming language.  
+It aims to explore the fundamentals of compiler frontends using LLVM in C++.
+
+---
+
+## 📚 Progress Overview
+
+| Chapter | Topic | Note | Code |
+|--------|-------|--------|--------|
+| Chapter 1 | Implementing a Lexer (tokenization) | [Note](notes/chapter1.md) | [Code](src/no_llvm.cpp)
+| Chapter 2 | Building AST + Recursive Parser | [Note](notes/chapter2.md) | [Code](src/no_llvm.cpp)
+| Chapter 3 | Generating LLVM IR | [Note](notes/chapter3.md) | [Code](src/llvm_codegen.cpp)
+| Chapter 4 | Adding JIT and Optimizer | | |
+| Chapter 5 | Extending Language : Control Flow| | |
+| Chapter 6 | Extending Language : User-defined Operators | | |
+| Chapter 7 | Extending Language : Mutable Variables | | |
+| Chapter 8 | Compiling to Object Code | | |
+| Chapter 9 | Adding Debug Information | | |
+---
+
+## 📁 Project Structure
+
+```
+kaleidoscope_tutorial/
+├── src/                    # Source files (main.cpp, ast.cpp, parser.cpp, etc.)
+├── build/                  # Build directory (CMake outputs)
+├── notes/                  # Markdown notes per chapter
+├── CMakeLists.txt          # CMake configuration
+├── LICENSE                 # MIT License
+└── README.md               # Project overview
+```
+
+---
+
+## 🚀 Build & Run (macOS + LLVM via Homebrew)
+
+### 1. Install LLVM
+
+```bash
+brew install llvm
+```
+
+### 2. Add LLVM to your PATH
+
+```bash
+export PATH="/opt/homebrew/opt/llvm/bin:$PATH"
+```
+
+### 3. Build and run the project
+
+```bash
+cd kaleidoscope_tutorial
+mkdir build && cd build
+cmake ..
+make
+./kaleidoscope
+```
+
+---
+
+## 📄 References
+
+- [LLVM Kaleidoscope Official Tutorial](https://llvm.org/docs/tutorial/)
+- Markdown notes for each chapter are located in the `notes/` folder.
