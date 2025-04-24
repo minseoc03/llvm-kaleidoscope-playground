@@ -29,8 +29,11 @@ kaleidoscope_tutorial/
 ├── src/                    # Source files (varying versions according to progress of chapters)
 │   └── no_llvm.cpp         # Chapter 1 & 2
 │   └── llvm_codgen.cpp     # Chapter 3
+│   └── llvm_opt_jit.cpp    # Chapter 4
 ├── build/                  # Build directory (CMake outputs)
 ├── notes/                  # Markdown notes per chapter (written in Korean)
+├── includes/
+│   └── KaleidoscoprJIT.h   # headerfile for custom JIT
 ├── CMakeLists.txt          # CMake configuration
 ├── LICENSE                 # MIT License
 └── README.md               # Project overview
