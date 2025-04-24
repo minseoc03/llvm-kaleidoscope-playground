@@ -14,7 +14,7 @@ It aims to explore the fundamentals of compiler frontends using LLVM in C++.
 | Chapter 1 | Implementing a Lexer (tokenization) | [Note](notes/chapter1.md) | [Code](src/no_llvm.cpp)
 | Chapter 2 | Building AST + Recursive Parser | [Note](notes/chapter2.md) | [Code](src/no_llvm.cpp)
 | Chapter 3 | Generating LLVM IR | [Note](notes/chapter3.md) | [Code](src/llvm_codegen.cpp)
-| Chapter 4 | Adding JIT and Optimizer | | |
+| Chapter 4 | Adding JIT and Optimizer | [Note](notes/chatper4.md) | [Code](src/llvm_opt_jit.cpp) |
 | Chapter 5 | Extending Language : Control Flow| | |
 | Chapter 6 | Extending Language : User-defined Operators | | |
 | Chapter 7 | Extending Language : Mutable Variables | | |
