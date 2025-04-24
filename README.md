@@ -10,7 +10,7 @@ It aims to explore the fundamentals of compiler frontends using LLVM in C++.
 ## 📚 Progress Overview
 
 | Chapter | Topic | Note (KOR) | Code |
-|--------|-------|:--------:|--------|
+|:--------:|:-------:|:--------:|:--------:|
 | Chapter 1 | Implementing a Lexer (tokenization) | [Note](notes/chapter1.md) | [Code](src/no_llvm.cpp)
 | Chapter 2 | Building AST + Recursive Parser | [Note](notes/chapter2.md) | [Code](src/no_llvm.cpp)
 | Chapter 3 | Generating LLVM IR | [Note](notes/chapter3.md) | [Code](src/llvm_codegen.cpp)
