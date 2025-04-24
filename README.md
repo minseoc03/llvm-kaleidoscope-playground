@@ -9,17 +9,17 @@ It aims to explore the fundamentals of compiler frontends using LLVM in C++.
 
 ## 📚 Progress Overview
 
-| Chapter | Topic | Note (KOR) | Code |
+| Chapter # | Topic | Note (KOR) | Code |
 |:--------:|:-------:|:--------:|:--------:|
-| Chapter 1 | Implementing a Lexer (tokenization) | [Note](notes/chapter1.md) | [Code](src/no_llvm.cpp)
-| Chapter 2 | Building AST + Recursive Parser | [Note](notes/chapter2.md) | [Code](src/no_llvm.cpp)
-| Chapter 3 | Generating LLVM IR | [Note](notes/chapter3.md) | [Code](src/llvm_codegen.cpp)
-| Chapter 4 | Adding JIT and Optimizer | [Note](notes/chatper4.md) | [Code](src/llvm_opt_jit.cpp) |
-| Chapter 5 | Extending Language : Control Flow| | |
-| Chapter 6 | Extending Language : User-defined Operators | | |
-| Chapter 7 | Extending Language : Mutable Variables | | |
-| Chapter 8 | Compiling to Object Code | | |
-| Chapter 9 | Adding Debug Information | | |
+| 1 | Implementing a Lexer (tokenization) | [Note](notes/chapter1.md) | [Code](src/no_llvm.cpp)
+| 2 | Building AST + Recursive Parser | [Note](notes/chapter2.md) | [Code](src/no_llvm.cpp)
+| 3 | Generating LLVM IR | [Note](notes/chapter3.md) | [Code](src/llvm_codegen.cpp)
+| 4 | Adding JIT and Optimizer | [Note](notes/chatper4.md) | [Code](src/llvm_opt_jit.cpp) |
+| 5 | Extending Language : Control Flow| | |
+| 6 | Extending Language : User-defined Operators | | |
+| 7 | Extending Language : Mutable Variables | | |
+| 8 | Compiling to Object Code | | |
+| 9 | Adding Debug Information | | |
 ---
 
 ## 📁 Project Structure
