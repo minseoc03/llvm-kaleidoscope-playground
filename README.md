@@ -26,7 +26,7 @@ It aims to explore the fundamentals of compiler frontends using LLVM in C++.
 
 ```
 kaleidoscope_tutorial/
-├── src/                    # Source files (main.cpp, ast.cpp, parser.cpp, etc.)
+├── src/                    # Source files (varying versions according to progress of chapters)
 ├── build/                  # Build directory (CMake outputs)
 ├── notes/                  # Markdown notes per chapter (written in Korean)
 ├── CMakeLists.txt          # CMake configuration
