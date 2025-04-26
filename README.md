@@ -15,7 +15,7 @@ It aims to explore the fundamentals of compiler frontends using LLVM in C++.
 | 2 | Building AST + Recursive Parser | [Note](notes/chapter2.md) | [Code](src/no_llvm.cpp)
 | 3 | Generating LLVM IR | [Note](notes/chapter3.md) | [Code](src/llvm_codegen.cpp)
 | 4 | Adding JIT and Optimizer | [Note](notes/chatper4.md) | [Code](src/llvm_opt_jit.cpp) |
-| 5 | Extending Language : Control Flow| | |
+| 5 | Extending Language : Control Flow| | [Code](src/llvm_if_for.cpp) |
 | 6 | Extending Language : User-defined Operators | | |
 | 7 | Extending Language : Mutable Variables | | |
 | 8 | Compiling to Object Code | | |
